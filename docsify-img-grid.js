@@ -20,14 +20,28 @@
                 min-width: 200px;
             `;
             
-            const clone = img.cloneNode(true);
-            clone.style.cssText = `
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            `;
+            // Check if image is wrapped in an anchor
+            const parentAnchor = img.closest('a');
+            if (parentAnchor) {
+                const anchorClone = parentAnchor.cloneNode(false);
+                const imgClone = img.cloneNode(true);
+                imgClone.style.cssText = `
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                `;
+                anchorClone.appendChild(imgClone);
+                wrapper.appendChild(anchorClone);
+            } else {
+                const clone = img.cloneNode(true);
+                clone.style.cssText = `
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                `;
+                wrapper.appendChild(clone);
+            }
             
-            wrapper.appendChild(clone);
             gridContainer.appendChild(wrapper);
         });
 
