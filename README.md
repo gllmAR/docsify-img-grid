@@ -15,7 +15,7 @@
 Add the following script to your docsify index.html:
 
 ```html
-<script src="//unpkg.com/docsify-img-grid/dist/docsify-img-grid.min.js"></script>
+<script src="https://gllmar.github.io/docsify-img-grid/docsify-img-grid.js"></script>
 ```
 
 ## Usage
@@ -73,9 +73,9 @@ window.$docsify = {
 
 ### with links
 
-* [![Membre_V]( https://fakeimg.pl/400x400?text=V)](membre_v/)
-* [![Membre_W]( https://fakeimg.pl/400x400?text=W)](membre_w/)
-* [![Membre_X]( https://fakeimg.pl/400x400?text=X)](membre_x/)
-* [![Membre_Y]( https://fakeimg.pl/400x400?text=Y)](membre_y/)
-* [![Membre_Z]( https://fakeimg.pl/400x400?text=Z)](membre_Z/)
+* [![V]( https://fakeimg.pl/400x400?text=V)](https://fakeimg.pl/400x400?text=V)
+* [![W]( https://fakeimg.pl/400x400?text=W)](https://fakeimg.pl/400x400?text=w)
+* [![X]( https://fakeimg.pl/400x400?text=X)](https://fakeimg.pl/400x400?text=x)
+* [![Y]( https://fakeimg.pl/400x400?text=Y)](https://fakeimg.pl/400x400?text=y)
+* [![Z]( https://fakeimg.pl/400x400?text=Z)](https://fakeimg.pl/400x400?text=z)
 
