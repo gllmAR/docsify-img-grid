@@ -2,6 +2,8 @@
 
 > A docsify plugin to transform consecutive image lists into responsive grid galleries.
 
+* [example](https://gllmar.github.io/docsify-img-grid/)
+
 ## Features
 
 - Automatically converts lists of 3 or more images into a responsive grid layout
